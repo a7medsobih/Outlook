@@ -1,0 +1,151 @@
+/* <!-- first navbar --> */
+
+.navbar{
+    background-color: #0F6CBD;
+    height: 48px;
+    color: #FFFFFF;
+}
+.navbar .col-1{
+    background-color: #0F6CBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+.navbar-brand{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: auto;
+}
+.navbar-brand:hover{
+    color: #FFFFFF;
+}
+.navbar .col-1:hover{
+    background-color: #0C3B5E;
+    color: #FFFFFF;
+}
+.navbar .col-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#prand{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-left: 10px;
+}  
+.navbar .col-4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar .col-4 .form-control{
+    width:170%;
+    height:4vh;
+}
+#v-icon,
+.i,
+.btn{
+    border: 0;
+    cursor: pointer;
+    color:white;
+    background-color: #0F6CBD;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    /* display: inline; */
+
+}
+#v-icon{
+    width:12%;
+}
+#v-icon:hover,
+.i:hover{
+    background-color: #0C3B5E;
+}
+.bi-camera-video{
+    margin-right: 20px;
+}
+.i{
+    margin: 0;
+    padding: 13px;
+    width:60px;
+}
+.btn{
+    
+    display: none;
+}
+/* <!-- first navbar --> */
+
+/* Labtop */
+@media only screen and (max-width: 1050px) {
+    #meet{
+        display: none;
+    }
+    #v-icon{
+        width:60px;
+    }
+    .navbar .col-4 .form-control{
+        width:120%;
+    }
+     #ic-teamsInlist{
+        display: none;
+    }
+    .ic-keepInlist,
+    #ic-notIndrop,
+    #ic-settingIndrop{
+        display: none;
+    }
+    #ic-keepIndrop
+    {
+        display: block;
+    }
+    .btn{
+       display: block;
+    }
+    .dropdown-menu[data-bs-popper] {
+        left:-100px;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    .navbar .col-4 .form-control{
+        width:100%;
+    }
+    .ic-settingInlist{
+        display: none;
+    }
+    #ic-settingIndrop{
+        display: block;
+    }
+}
+@media only screen and (max-width: 660px){
+    .ic-notInlist{
+        display: none;
+    }
+    #ic-notIndrop{
+        display: block;
+    }
+    .dropdown-menu[data-bs-popper] {
+        left:-140px;
+    }
+}
+
+
+/* M- Mobile */
+@media only screen and (max-width: 425px) {
+    .navbar .col-4 .form-control{
+        display: none;
+    }
+    
+}
+
+
+/* Mobile S devices */
+@media only screen and (max-width: 320px) {
+}

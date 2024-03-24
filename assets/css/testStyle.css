@@ -1,0 +1,24 @@
+#f{
+    display: none;
+}
+#box{
+    display: none;
+
+}
+.ah{
+    width:300px;
+    background-color:aqua;
+    padding: 10px;
+    position: absolute;
+    left:-700px;
+}
+.so{
+    width:200px;
+    background-color:rgb(197, 73, 83);
+    padding: 10px;
+    color:white;
+}
+#zeft{
+    font-size: 40px;
+    color: blue;
+}

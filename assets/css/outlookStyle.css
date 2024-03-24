@@ -1,0 +1,468 @@
+body{
+    background-color: #F5F5F5;
+}
+ 
+/* <!-- first navbar --> */
+
+.navbar{
+    background-color: #0F6CBD;
+    height: 48px;
+    color: #FFFFFF;
+}
+.navbar .col-1{
+    background-color: #0F6CBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+.navbar-brand{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: auto;
+}
+.navbar-brand:hover{
+    color: #FFFFFF;
+}
+.navbar .col-1:hover{
+    background-color: #0C3B5E;
+    color: #FFFFFF;
+}
+.navbar .col-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#prand{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-left: 10px;
+}  
+.navbar .col-4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar .col-4 .form-control{
+    width:170%;
+    height:4vh;
+}
+#v-icon,
+.i{
+    border: 0;
+    cursor: pointer;
+    color:white;
+    background-color: #0F6CBD;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    /* display: inline; */
+
+}
+#friDrob{
+    padding: 5px;
+}
+#friDrob span{
+    color: white;
+    font-size: 13px;
+}
+#v-icon{
+    width:12%;
+}
+#v-icon:hover,
+.i:hover,
+#friDrob:hover{
+    background-color: #0C3B5E;
+}
+.bi-camera-video{
+    margin-right: 20px;
+}
+.i{
+    margin: 0;
+    padding: 13px;
+    width:60px;
+}
+#friDrob{
+    
+    display: none;
+}
+
+
+/* Labtop */
+@media only screen and (max-width: 1050px) {
+    #meet{
+        display: none;
+    }
+    #v-icon{
+        width:60px;
+    }
+    .navbar .col-4 .form-control{
+        width:120%;
+    }
+     #ic-teamsInlist{
+        display: none;
+    }
+    .ic-keepInlist,
+    #ic-notIndrop,
+    #ic-settingIndrop{
+        display: none;
+    }
+    #ic-keepIndrop
+    {
+        display: block;
+    }
+    #friDrob{
+       display: block;
+    }
+    .dropdown-menu[data-bs-popper] {
+        left:-100px;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    .navbar .col-4 .form-control{
+        width:100%;
+    }
+    .ic-settingInlist{
+        display: none;
+    }
+    #ic-settingIndrop{
+        display: block;
+    }
+}
+@media only screen and (max-width: 660px){
+    .ic-notInlist{
+        display: none;
+    }
+    #ic-notIndrop{
+        display: block;
+    }
+    .dropdown-menu[data-bs-popper] {
+        left:-140px;
+    }
+}
+
+
+/* M- Mobile */
+@media only screen and (max-width: 425px) {
+    .navbar .col-4 .form-control{
+        display: none;
+    }
+    
+}
+
+
+/* Mobile S devices */
+@media only screen and (max-width: 320px) {
+}
+
+
+/* <!-- first navbar --> */
+
+
+#snav {
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: 50px;
+    position: fixed;
+    top: 48px;
+    left: 0;
+    padding: 2px;
+    text-align: center;
+    margin-right: 100px;
+}
+#snav a{
+    padding: 9px 15px ;
+}
+#snav a,
+.navImg img {
+    text-decoration: none;
+    /* padding: 9px 15px ; */
+    /* margin: 2px 2px 6px; */
+    width: 100%;
+    display: block;
+    color: black;
+    /* border-bottom: 1px solid #f0f0f0; */
+}
+#snav .navImg,
+#snav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    width: 44px;
+    margin: 4px ;
+}
+#snav .navImg:hover,
+#snav a:hover {
+    background-color: #ffffff;
+    border:2px solid;
+    border-color:#f0f0f0  #f0f0f0 #f0f0f0 #0F6CBD ;
+    border-radius:0 17% 17% 0;
+    color: #0f6cbd;
+}
+
+.topBar{
+    background-color: #F5F5F5;
+    margin-left: 50px;
+    height: 36px;
+    
+}
+.topBar button{
+    background-color: #F5F5F5;
+    color: #242424;
+    width: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    height: 31px;
+    vertical-align: top;
+    margin: 0px -1px;
+}
+.topBar button:hover{
+    color:#242424;
+    border-bottom: #0F6CBD solid 2px;
+    background-color: #F0F0F0;
+    font-weight: 600;
+    cursor: default;
+}
+#listIcon{
+    height: 100%;
+    margin-left: 8px;
+    border: 0;
+    width: 40px;
+    /* margin-left:-5px; */
+    color: black;
+}
+.body{
+    margin:0px 8px 0 58px;
+}
+
+
+
+/* start navbar 3 */
+.bottomBar{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow:  0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.14);
+    margin:0px 5px 4px 0;
+}
+.bottomBar div{
+    height: 40px;
+    margin-left: 0px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.bottomBar div #mail{
+    height: 32px;
+    background-color:#0F6CBD ;
+    color: #FFFFFF;
+    padding: 1px 12px 1px 9px;
+    vertical-align: top;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 14px;
+    margin: 0px 0px 0px -8px;
+    border: 0px solid transparent;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    font-weight: 400;
+    font-size: 14px
+}
+.bottomBar div #mail span{
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.bottomBar div #n{
+    height: 32px;
+    background-color: #0F6CBD;
+    color: #FFFFFF;
+    padding: 0px;
+    border: 0px solid transparent;
+    text-align: center;
+    cursor: default;
+    vertical-align: top;
+    border-radius: 0px 4px 4px 0px;
+    width: 28px;
+    margin: 0px 0px 0px 1px;
+}
+ .bottomBarData{
+    margin: 0 15px;
+    opacity: 50%;
+    font-size: 13px;
+    
+}
+#onOpacity{
+    opacity: 100%;
+    border: 1px solid ;
+    border-color: transparent;
+    padding: 5px 12px; 
+    margin: 0 5px;
+}
+#onOpacity:hover{
+    background-color: #FAFAFA;
+    border: 1px solid ;
+    border-color: #E5E5E5;
+    border-radius: 4px;
+    cursor: default;
+}
+#border,#border2{
+    border-right: 1px solid #a5a5a5;
+    border-left: 1px solid #a5a5a5;
+    padding: 5px 17px; 
+    margin: 0 0px;
+}
+#border3{
+    border-right: 1px solid #a5a5a5;
+    padding: 5px 10px; 
+    margin: 0 -10px;
+    width: fit-content;
+}
+.iconDown{
+    margin: 3px;
+    font-size: 10px;
+}
+#onOpacity1{
+    opacity: 100%;
+    margin: 0;
+    height: 100%;
+    border:0;
+    border-radius: 0;
+}
+#onOpacity1:hover{
+    background-color: #F0F0F0;
+}
+
+.i-bottonbar{
+    margin-left: 5px;
+}
+.bi-flag,.bi-exclamation-triangle,.bi-lock{
+    color:red;
+}
+.bi-pin,.bi-folder-symlink{
+    color: blue;
+}
+.bottomBar i{
+    font-size: 15px;
+}
+#iconDown1,
+#iconDown2,
+#iconDown3{
+    font-size: 10px;
+}
+.dropdown-menu i{
+    margin-right: 10px;
+}
+.dropdown-menu{
+    font-size: 13px;
+}
+.droplist{
+    padding: 5px 0px;   
+    margin:0px 15px;
+    border-top:1px solid #0000002e ;
+    font-weight:bold ;
+}
+.listOpacity{
+    opacity: 50%;
+}
+#down{
+    position: absolute;
+    top: 100px;
+    right: 0px 
+}
+#down .btn{
+    border:0px;
+    font-size: 13px;
+}
+#layout{
+    padding: 5px 0px;
+    margin:0px 38px;
+    color: blue;
+    font-weight: 600
+}
+    /* end navbar 3 */
+.asside {
+    overflow-y: auto;    /* Enable vertical scrollbar*/
+    height: 80vh;       /* Set the height of the navbar */
+    position: fixed;
+
+    transition: width 1s;
+
+    
+}
+.asside .col-4 div{
+    width:180px;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;    
+}
+
+.s{
+    position: relative;
+    left: 15px;
+}
+.p{
+    position: relative;
+    left: 30px;
+}
+.pAdd{
+    padding-left: 55px;
+    padding-right: 19px;
+    font-size: 14px;
+    color: #0F6CBD;
+}
+.p i{
+    margin-right: 8px;
+}
+#favData1{
+    background-color: #CFE4FA;
+}
+#favData1:hover,
+.favData:hover,
+.folData:hover{
+    background-color: #EBEBEB;
+}
+.on{
+     width: 400;
+}
+.of{
+    transition: width 1s;
+}
+/* عنصر التمرير بشكل عام */
+::-webkit-scrollbar {
+    width:9px; /* عرض شريط التمرير */
+  }
+  
+  /* المسار الذي يمثل التمرير عند التحريك */
+  ::-webkit-scrollbar-thumb {
+    background-color: #a3a3a3; /* لون الجزء الذي يمثل التمرير */
+    border-radius: 6px; /* زاوية الزاوية للتمرير */
+  }
+  
+  /* المسار الذي يظهر عند الوقوف على التمرير */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #727272; /* لون التمرير عند التحريك عليه */
+  }
+  
+  /* المسار الذي يظهر في الخلفية من التمرير */
+  ::-webkit-scrollbar-track {
+    background-color: #F5F5F5; /* لون الخلفية من التمرير */
+    border-radius: 10px; /* زاوية الزاوية للخلفية */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* ظل داخلي للخلفية */
+  }
+  
+  /* المسار الذي يظهر عند الوقوف على التمرير */
+  ::-webkit-scrollbar-track:hover {
+    background-color: #ddd; /* لون الخلفية عند التحريك عليها */
+  }
+
+
+
+
